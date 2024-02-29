@@ -1,0 +1,182 @@
+[
+    {
+      "id": 1,
+      "name": "Men's Blue Shirt",
+      "description": "A classic blue shirt for men.",
+      "price": 29.99,
+      "color": "Blue",
+      "size": "M",
+      "image": "https://example.com/images/shirt1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Women's White Blouse",
+      "description": "A stylish white blouse for women.",
+      "price": 39.99,
+      "color": "White",
+      "size": "S",
+      "image": "https://example.com/images/blouse1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Men's Striped Shirt",
+      "description": "A striped shirt for men.",
+      "price": 34.99,
+      "color": "Blue/White",
+      "size": "L",
+      "image": "https://example.com/images/shirt2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Women's Floral Dress",
+      "description": "A floral dress for women.",
+      "price": 49.99,
+      "color": "Pink",
+      "size": "M",
+      "image": "https://example.com/images/dress1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Men's Casual Shirt",
+      "description": "A comfortable casual shirt for men.",
+      "price": 27.99,
+      "color": "Gray",
+      "size": "XL",
+      "image": "https://example.com/images/shirt3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Women's Denim Jacket",
+      "description": "A denim jacket for women.",
+      "price": 59.99,
+      "color": "Blue",
+      "size": "S",
+      "image": "https://example.com/images/jacket1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Men's Plaid Shirt",
+      "description": "A plaid shirt for men.",
+      "price": 32.99,
+      "color": "Red/Black",
+      "size": "L",
+      "image": "https://example.com/images/shirt4.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Women's Sweater",
+      "description": "A cozy sweater for women.",
+      "price": 44.99,
+      "color": "Green",
+      "size": "M",
+      "image": "https://example.com/images/sweater1.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Men's Polo Shirt",
+      "description": "A classic polo shirt for men.",
+      "price": 24.99,
+      "color": "Navy",
+      "size": "XL",
+      "image": "https://example.com/images/shirt5.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Women's T-shirt",
+      "description": "A comfortable t-shirt for women.",
+      "price": 19.99,
+      "color": "Black",
+      "size": "S",
+      "image": "https://example.com/images/tshirt1.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Men's V-Neck Sweater",
+      "description": "A stylish V-neck sweater for men.",
+      "price": 39.99,
+      "color": "Gray",
+      "size": "L",
+      "image": "https://example.com/images/sweater2.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Women's Jeans",
+      "description": "Comfortable jeans for women.",
+      "price": 49.99,
+      "color": "Blue",
+      "size": "M",
+      "image": "https://example.com/images/jeans1.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Men's Checkered Shirt",
+      "description": "A checkered shirt for men.",
+      "price": 34.99,
+      "color": "Red/White",
+      "size": "XL",
+      "image": "https://example.com/images/shirt6.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Women's Cardigan",
+      "description": "A versatile cardigan for women.",
+      "price": 29.99,
+      "color": "Brown",
+      "size": "S",
+      "image": "https://example.com/images/cardigan1.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Men's Hoodie",
+      "description": "A warm hoodie for men.",
+      "price": 42.99,
+      "color": "Black",
+      "size": "L",
+      "image": "https://example.com/images/hoodie1.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Women's Skirt",
+      "description": "A stylish skirt for women.",
+      "price": 29.99,
+      "color": "Red",
+      "size": "M",
+      "image": "https://example.com/images/skirt1.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Men's Dress Shirt",
+      "description": "A formal dress shirt for men.",
+      "price": 37.99,
+      "color": "White",
+      "size": "XL",
+      "image": "https://example.com/images/shirt7.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Women's Blazer",
+      "description": "A stylish blazer for women.",
+      "price": 54.99,
+      "color": "Navy",
+      "size": "S",
+      "image": "https://example.com/images/blazer1.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Men's Trousers",
+      "description": "Classic trousers for men.",
+      "price": 44.99,
+      "color": "Gray",
+      "size": "L",
+      "image": "https://example.com/images/trousers1.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Women's Leggings",
+      "description": "Comfortable leggings for women.",
+      "price": 19.99,
+      "color": "Black",
+      "size": "M",
+      "image": "https://example.com/images/leggings1.jpg"
+    }
+]  

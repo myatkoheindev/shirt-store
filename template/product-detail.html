@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Blue Shirt</title>
+    <style>
+        body {
+            display: flex; /* Make the body a flex container */
+            min-height: 100vh; /* Set minimum body height for vertical centering */
+            justify-content: center; /* Horizontally center content */
+            align-items: center; /* Vertically center content */
+            font-family: sans-serif;
+            place-items: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            /* Subtle shadow */
+            background-color: #fff;
+            /* White background for details */
+        }
+
+        .product-detail {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .product-detail img {
+            width: 300px;
+            height: 300px;
+            /* Fix image aspect ratio */
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 5px;
+            /* Rounded corners for image */
+        }
+
+        .details {
+            margin-top: 80px;
+            flex: 1;
+        }
+        .button {
+            display: flex; /* Make the container a flexbox */
+            justify-content: space-between; /* Horizontally space buttons */
+        }
+
+        h2 {
+            margin: 0 0 10px;
+            font-size: 20px;
+            /* Increase heading size */
+        }
+
+        p {
+            margin: 0 0 5px;
+            font-size: 14px;
+            /* Adjust paragraph size */
+        }
+
+        .price {
+            font-weight: bold;
+            color: #333;
+            /* Darker text color */
+        }
+
+        .attributes {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .attributes li {
+            margin-bottom: 5px;
+        }
+
+        .value {
+            font-weight: bold;
+        }
+
+        .add-to-cart {
+            display: block;
+            margin-right: 10px;
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+        }
+        .back {
+            text-decoration: none;
+            display: block;
+            margin-right: 10px;
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #000000;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .add-to-cart:hover {
+            background-color: #1e7c3c;
+            /* Darken button color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-detail container"> <img
+            src="https://cdn.mukama.com/31812-thickbox_default/formal-friday-ultrafine-merino-t-shirt-black.jpg"
+            alt="Men's Blue Shirt">
+        <div class="details">
+            <h2>{%PRODUCT_TITLE%}</h2>
+            <p class="description">{%PRODUCT_DECRIPTION%}</p>
+            <p class="price">${%PRODUCT_PRICE%}</p>
+            <ul class="attributes">
+                <li>Color: <span class="value">{%PRODUCT_COLOR%}</span></li>
+                <li>Size: <span class="value">{%PRODUCT_SIZE%}</span></li>
+            </ul>
+            <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+                <a class="button back" href="/">Cancel</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
